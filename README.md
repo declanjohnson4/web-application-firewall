@@ -30,6 +30,7 @@ timestamp, IP, method, path, user agent, body, and matched rules.
 
 ## Project Structure
 
+```
 web-application-firewall/
 ├── waf/
 │   ├── rules.py        # regex rule set for XSS, SQLi, traversal, shell injection
@@ -41,6 +42,7 @@ web-application-firewall/
 ├── Dockerfile
 ├── requirements.txt
 └── .env.example
+```
 
 ## Setup
 
